@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 1000 1000"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.40"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   sodipodi:docname="Spherical_bessel_y_plot.svg"
+   sodipodi:docbase="/home/alejo">
+  <metadata
+     id="metadata134">
+    <rdf:RDF
+       id="RDF135">
+      <cc:Work
+         rdf:about=""
+         id="Work136">
+        <dc:format
+           id="format137">image/svg+xml</dc:format>
+        <dc:type
+           id="type139"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.86831672"
+     inkscape:cx="305.25953"
+     inkscape:cy="601.47607"
+     inkscape:window-width="1214"
+     inkscape:window-height="767"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg1" />
+  <desc
+     id="desc2">Produced by GNUPLOT 4.0 patchlevel 0 </desc>
+  <defs
+     id="defs4">
+    <circle
+       id="gpDot"
+       r="1" />
+    <path
+       id="gpPt0"
+       style="stroke-width:0.111"
+       d="M-1,0 h2 M0,-1 v2" />
+    <path
+       id="gpPt1"
+       style="stroke-width:0.111"
+       d="M-1,-1 L1,1 M1,-1 L-1,1" />
+    <path
+       id="gpPt2"
+       style="stroke-width:0.111"
+       d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+    <rect
+       id="gpPt3"
+       style="stroke-width:0.111"
+       x="-1"
+       y="-1"
+       width="2"
+       height="2" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt4"
+       style="fill:currentColor; stroke:none" />
+    <circle
+       id="gpPt5"
+       style="stroke-width:0.111"
+       cx="0"
+       cy="0"
+       r="1" />
+    <use
+       xlink:href="#gpPt5"
+       id="gpPt6"
+       style="fill:currentColor; stroke:none" />
+    <path
+       id="gpPt7"
+       style="stroke-width:0.111"
+       d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt8"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt9"
+       transform="rotate(180)" />
+    <use
+       xlink:href="#gpPt9"
+       id="gpPt10"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt11"
+       transform="rotate(45)" />
+    <use
+       xlink:href="#gpPt11"
+       id="gpPt12"
+       style="fill:currentColor; stroke:none" />
+  </defs>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g19">
+    <path
+       d="M157,889 L175,889 M947,889 L929,889 "
+       id="path20" />
+    <g
+       transform="translate(140,898)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:end"
+       id="g21">
+      <text
+         id="text22"><tspan
+           id="tspan23">-1.5</tspan></text>
+    </g>
+    <path
+       d="M157,712 L175,712 M947,712 L929,712 "
+       id="path25" />
+    <g
+       transform="translate(140,721)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:end"
+       id="g26">
+      <text
+         id="text27"><tspan
+           id="tspan28">-1</tspan></text>
+    </g>
+    <path
+       d="M157,535 L175,535 M947,535 L929,535 "
+       id="path30" />
+    <g
+       transform="translate(140,544)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:end"
+       id="g31">
+      <text
+         id="text32"><tspan
+           id="tspan33">-0.5</tspan></text>
+    </g>
+    <path
+       d="M157,359 L175,359 M947,359 L929,359 "
+       id="path35" />
+    <g
+       transform="translate(140,368)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:end"
+       id="g36">
+      <text
+         id="text37"><tspan
+           id="tspan38"> 0</tspan></text>
+    </g>
+    <path
+       d="M157,182 L175,182 M947,182 L929,182 "
+       id="path40" />
+    <g
+       transform="translate(140,191)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:end"
+       id="g41">
+      <text
+         id="text42"><tspan
+           id="tspan43"> 0.5</tspan></text>
+    </g>
+    <path
+       d="M157,889 L157,871 M157,111 L157,129 "
+       id="path45" />
+    <g
+       transform="translate(157,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g46">
+      <text
+         id="text47"><tspan
+           id="tspan48"> 0</tspan></text>
+    </g>
+    <path
+       d="M262,889 L262,871 M262,111 L262,129 "
+       id="path50" />
+    <g
+       transform="translate(262,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g51">
+      <text
+         id="text52"><tspan
+           id="tspan53"> 2</tspan></text>
+    </g>
+    <path
+       d="M368,889 L368,871 M368,111 L368,129 "
+       id="path55" />
+    <g
+       transform="translate(368,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g56">
+      <text
+         id="text57"><tspan
+           id="tspan58"> 4</tspan></text>
+    </g>
+    <path
+       d="M473,889 L473,871 M473,111 L473,129 "
+       id="path60" />
+    <g
+       transform="translate(473,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g61">
+      <text
+         id="text62"><tspan
+           id="tspan63"> 6</tspan></text>
+    </g>
+    <path
+       d="M578,889 L578,871 M578,111 L578,129 "
+       id="path65" />
+    <g
+       transform="translate(578,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g66">
+      <text
+         id="text67"><tspan
+           id="tspan68"> 8</tspan></text>
+    </g>
+    <path
+       d="M684,889 L684,871 M684,111 L684,129 "
+       id="path70" />
+    <g
+       transform="translate(684,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g71">
+      <text
+         id="text72"><tspan
+           id="tspan73"> 10</tspan></text>
+    </g>
+    <path
+       d="M789,889 L789,871 M789,111 L789,129 "
+       id="path75" />
+    <g
+       transform="translate(789,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g76">
+      <text
+         id="text77"><tspan
+           id="tspan78"> 12</tspan></text>
+    </g>
+    <path
+       d="M894,889 L894,871 M894,111 L894,129 "
+       id="path80" />
+    <g
+       transform="translate(894,935)"
+       style="stroke:none; fill:black; font-family:Times; font-size:25.00; text-anchor:middle"
+       id="g81">
+      <text
+         id="text82"><tspan
+           id="tspan83"> 14</tspan></text>
+    </g>
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:0.50"
+     id="g85">
+    <path
+       d="M157,359 L947,359 "
+       id="path86" />
+  </g>
+  <path
+     d="M157,889 L947,889 L947,111 L157,111 L157,889 "
+     id="path88"
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.0000000;" />
+  <g
+     transform="translate(552.0000,64.00000)"
+     style="stroke:none;fill:#000000;font-family:Times;font-size:25.000000;text-anchor:middle;color:#000000;stroke-width:1.0000000;"
+     id="g101">
+    <text
+       id="text102"><tspan
+         id="tspan103">Spherical Bessel function, second kind</tspan></text>
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:2.00"
+     id="g105" />
+  <g
+     style="fill:none; color:red; stroke:currentColor; stroke-width:2.00"
+     id="g106" />
+  <g
+     style="fill:#ff0000;color:black;stroke:currentColor;stroke-width:2.00;fill-opacity:1.0000000;"
+     id="g107">
+    <g
+       transform="translate(810,156)"
+       style="stroke:none;fill:#ff0000;font-family:Times;font-size:25.00;text-anchor:end;fill-opacity:1.0000000;"
+       id="g108">
+      <text
+         id="text109"
+         style="fill:#ff0000;fill-opacity:1.0000000;"><tspan
+           id="tspan110"
+           style="fill:#ff0000;fill-opacity:1.0000000;">n = 0</tspan></text>
+    </g>
+  </g>
+  <g
+     style="fill:none; color:red; stroke:currentColor; stroke-width:2.00"
+     id="g112">
+    <path
+       d="M827,147 L913,147 M187,889 L189,838 L197,698 L205,598 L213,521 L221,461 L229,412 L237,372    L245,338 L253,311 L261,289 L269,271 L277,258 L285,249 L293,243 L301,240 L309,240 L317,243    L325,247 L333,254 L341,263 L349,273 L356,284 L364,296 L372,308 L380,321 L388,333 L396,346    L404,357 L412,368 L420,379 L428,388 L436,396 L444,402 L452,408 L460,412 L468,414 L476,415    L484,415 L492,414 L500,411 L508,408 L516,403 L524,398 L532,392 L540,385 L548,378 L556,371    L564,364 L572,357 L580,351 L588,345 L596,339 L604,334 L612,330 L620,326 L628,324 L636,322    L644,321 L652,321 L660,322 L668,323 L676,326 L684,329 L692,333 L700,337 L708,341 L716,346    L724,351 L732,356 L740,361 L748,365 L755,370 L763,374 L771,377 L779,380 L787,383 L795,385    L803,386 L811,387 L819,387 L827,386 L835,385 L843,383 L851,380 L859,378 L867,374 L875,371    L883,367 L891,364 L899,360 L907,356 L915,352 L923,349 L931,346 L939,343 L947,341 "
+       id="path113" />
+  </g>
+  <g
+     style="fill:none; color:green; stroke:currentColor; stroke-width:2.00"
+     id="g114" />
+  <g
+     style="fill:#008000;color:black;stroke:currentColor;stroke-width:2.00;fill-opacity:1.0000000;"
+     id="g115">
+    <g
+       transform="translate(810,193)"
+       style="stroke:none;fill:#008000;font-family:Times;font-size:25.00;text-anchor:end;fill-opacity:1.0000000;"
+       id="g116">
+      <text
+         id="text117"
+         style="fill:#008000;fill-opacity:1.0000000;"><tspan
+           id="tspan118"
+           style="fill:#008000;fill-opacity:1.0000000;">n = 1</tspan></text>
+    </g>
+  </g>
+  <g
+     style="fill:none;color:green;stroke:currentColor;stroke-width:2.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:8.0000000,2.0000000;stroke-dashoffset:0.0000000;"
+     id="g120">
+    <path
+       d="M827,184 L913,184 M207,889 L213,803 L221,716 L229,651 L237,600 L245,558 L253,521 L261,489    L269,460 L277,433 L285,409 L293,387 L301,367 L309,349 L317,333 L325,319 L333,307 L341,297    L349,289 L356,283 L364,278 L372,276 L380,275 L388,276 L396,279 L404,283 L412,288 L420,295    L428,302 L436,310 L444,319 L452,328 L460,337 L468,346 L476,355 L484,364 L492,372 L500,379    L508,386 L516,392 L524,396 L532,400 L540,403 L548,405 L556,405 L564,405 L572,403 L580,401    L588,398 L596,394 L604,389 L612,384 L620,379 L628,373 L636,367 L644,361 L652,356 L660,350    L668,345 L676,340 L684,336 L692,333 L700,330 L708,328 L716,327 L724,326 L732,326 L740,327    L748,328 L755,330 L763,333 L771,336 L779,340 L787,344 L795,348 L803,352 L811,357 L819,361    L827,365 L835,369 L843,373 L851,376 L859,378 L867,381 L875,382 L883,383 L891,384 L899,384    L907,383 L915,382 L923,380 L931,378 L939,376 L947,373 "
+       id="path121"
+       style="stroke-width:2.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:8.0000000,2.0000000;stroke-dashoffset:0.0000000;" />
+  </g>
+  <g
+     style="fill:none; color:blue; stroke:currentColor; stroke-width:2.00"
+     id="g122" />
+  <g
+     style="fill:#0000ff;color:black;stroke:currentColor;stroke-width:2.00;fill-opacity:1.0000000;"
+     id="g123">
+    <g
+       transform="translate(810,230)"
+       style="stroke:none;fill:#0000ff;font-family:Times;font-size:25.00;text-anchor:end;fill-opacity:1.0000000;"
+       id="g124">
+      <text
+         id="text125"><tspan
+           id="tspan126">n = 2</tspan></text>
+    </g>
+  </g>
+  <g
+     style="fill:none;color:blue;stroke:currentColor;stroke-width:2.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:2.0000000,2.0000000;stroke-dashoffset:0.0000000;"
+     id="g128">
+    <path
+       d="M827,221 L913,221 M233,889 L237,824 L245,737 L253,674 L261,626 L269,589 L277,557 L285,531    L293,508 L301,487 L309,467 L317,449 L325,432 L333,416 L341,401 L349,387 L356,373 L364,360    L372,348 L380,337 L388,328 L396,319 L404,311 L412,305 L420,300 L428,296 L436,294 L444,293    L452,293 L460,294 L468,297 L476,300 L484,304 L492,309 L500,315 L508,322 L516,328 L524,336    L532,343 L540,350 L548,357 L556,364 L564,371 L572,377 L580,382 L588,387 L596,391 L604,394    L612,396 L620,398 L628,398 L636,398 L644,397 L652,395 L660,393 L668,390 L676,386 L684,382    L692,377 L700,372 L708,367 L716,362 L724,357 L732,352 L740,348 L748,344 L755,340 L763,337    L771,334 L779,332 L787,330 L795,330 L803,329 L811,330 L819,331 L827,333 L835,335 L843,337    L851,341 L859,344 L867,348 L875,351 L883,355 L891,359 L899,363 L907,366 L915,370 L923,373    L931,375 L939,378 L947,379 "
+       id="path129"
+       style="stroke-width:2.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:2.0000000,2.0000000;stroke-dashoffset:0.0000000;" />
+  </g>
+  <g
+     style="fill:none; color:blue; stroke:currentColor; stroke-width:1.00"
+     id="g130" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g131">
+    <path
+       d="M157,889 L947,889 L947,111 L157,111 L157,889 "
+       id="path132" />
+  </g>
+  <g
+     transform="matrix(0.000000,-1.000000,1.000000,0.000000,98.31171,451.8319)"
+     style="font-size:25.000000;color:#000000;fill:#000000;stroke:none;stroke-width:1.0000000;font-family:Arial;text-anchor:middle"
+     id="g676">
+    <text
+       id="text677"
+       sodipodi:linespacing="125%"
+       x="0.64343166"
+       y="-2.5737267"><tspan
+         style="font-weight:bold"
+         id="tspan82">y</tspan><tspan
+         dy="6"
+         id="tspan66"
+         style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;text-anchor:middle;writing-mode:lr">n</tspan><tspan
+         dy="-6"
+         id="tspan1529"
+         style="font-size:25.000000;font-weight:bold">(x)</tspan></text>
+  </g>
+  <g
+     transform="translate(534.0770,956.3089)"
+     style="font-size:25.000000;color:#000000;fill:#000000;stroke:none;stroke-width:1.0000000;font-family:Times;text-anchor:middle"
+     id="g1473">
+    <text
+       id="text1474"><tspan
+         id="tspan1475"
+         style="font-weight:bold">x</tspan></text>
+  </g>
+</svg>

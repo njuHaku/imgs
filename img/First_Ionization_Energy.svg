@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:its="http://www.w3.org/2005/11/its" viewBox="0 0 1250 500" font-family="Helvetica, sans-serif">
+
+  <title>Energy to remove the first electron</title>
+  <desc>
+    Energy required to remove the first electron from an atom.
+
+    Originally, the ionization energy data is from http://www.science.co.il/PTelements.asp?s=ionization
+
+    The graph is derived from
+
+    Wikpedia Commons, User:Sponk,
+    http://commons.wikimedia.org/wiki/File:Erste_Ionisierungsenergie_PSE_color_coded.png
+
+    German Wikipedia, User:JJnoDog,
+    http://de.wikipedia.org/wiki/Datei:IonizationEnergyAtomicWeight.PNG
+    http://commons.wikimedia.org/wiki/File:IonizationEnergyAtomicWeight.PNG
+
+    See also Raymond Chang, Chemistry, 2nd edition, Random House, 1984, page 166
+
+    Unlike above figures, the elements are not joined with line segments because the data is discrete.
+    Lines are drawn from the abscissa to the noble gases to signal the end of a periodic table row.
+
+    2016-11-09 en:User:DePiep:
+    Added elements 104 - 108. All ionisation energy values are read from NIST https://www.nist.gov/sites/default/files/illo_for_2014_pt_1.png
+    Categories and their color legend now follow the 2013 enwiki-scheme (see https://en.wikipedia.org/wiki/Periodic_table#Overview ). Changes:
+    - Added: categories 'diatomic nonmetal' "#e7ff8f", and 'polyatomic nonmetal' "#a1ffc3".
+    - Deprecated: 'nonmetal' "#a0ffa0", 'halogen "#ffff99".
+
+    Todo: check/add translations for 'diatomic nonmetal' and 'polyatomic nonmetal'.
+  </desc>
+
+  <metadata>
+
+  </metadata>
+
+  <defs>
+    <style type="text/css"> <![CDATA[
+    
+    /* Alkali Metal */
+    use.AM { fill:#ff6666; }
+    /* Alkali Earth Metal */
+    use.AE { fill:#ffdead; }
+    /* Transition Metal */
+    use.TM { fill:#ffc0c0; }
+    /* Post Transition Metal */
+    use.PT { fill:#cccccc; }
+    /* Lanthanide */
+    use.LA { fill:#ffbfff; }
+    /* Actinide */
+    use.AC { fill:#ff99cc; }
+    /* Metalloid */
+    use.ME { fill:#cccc99; }
+    /* Polyatomic Nonmetal */
+    use.PA { fill:#a1ffc3; }
+    /* Diatomic Nonmetal */
+    use.DA { fill:#e7ff8f; }
+    /* Noble Gas */
+    use.NG { fill:#c0ffff; }
+    
+    ]]>      
+    </style>
+    
+    <!-- Define Shapes that will be used throughout -->
+    <g id="mark">
+      <circle stroke="#000000" stroke-width="1" cx="0" cy="0" r="5" fill-opacity="1.0"/>
+    </g>
+  </defs>
+
+  <g transform="translate(100,400)">
+
+    <!-- Directory -->
+    <g font-size="20" transform="translate(850,-170)">
+
+      <g transform="translate(0,-180)">
+        <use xlink:href="#mark" x="-10" y="-5" class="AM"/>
+        <switch>
+          <text systemLanguage="en">Alkali metal</text>
+          <text systemLanguage="bs">Alkalni metal</text>
+          <text systemLanguage="ca">Metall alcalí</text>
+          <text systemLanguage="cs">Alkalický kov</text>
+          <text systemLanguage="de">Alkalimetall</text>
+          <text systemLanguage="es">Metal alcalino</text>
+          <text systemLanguage="fi">Alkalimetalli</text>
+          <text systemLanguage="fr">Métal alcalin</text>
+          <text systemLanguage="gl">Metal alcalino</text>
+          <text systemLanguage="hr">Alkalijski metal</text>
+          <text systemLanguage="hu">Alkálifém</text>
+          <text systemLanguage="ru">щелочные металлы</text>
+          <text systemLanguage="sh">Alkalni metal</text>
+          <text systemLanguage="sr">Алкални метал</text>
+          <text systemLanguage="sr-EC">Алкални метал</text>
+          <text systemLanguage="sr-EL">Alkalni metal</text>
+          <text systemLanguage="vi">Kim loại kiềm</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">碱金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">鹼金屬</text>
+          <text systemLanguage="id">Logam alkali</text>
+          <text>Alkali metal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-160)">
+        <use xlink:href="#mark" x="-10" y="-5" class="AE"/>
+        <switch>
+          <text systemLanguage="en">Alkaline earth metal</text>
+          <text systemLanguage="id">Logam alkali tanah</text>
+          <text systemLanguage="bs">Zemnoalkalni metal</text>
+          <text systemLanguage="ca">Metall alcalinoterri</text>
+          <text systemLanguage="cs">Kov alkalické zeminy</text>
+          <text systemLanguage="de">Erdalkalimetall</text>
+          <text systemLanguage="es">Metal alcalino-térreo</text>
+          <text systemLanguage="fi">Maa-alkalimetalli</text>
+          <text systemLanguage="fr">Métal alcalino-terreux</text>
+          <text systemLanguage="gl">Metal alcalinotérreo</text>
+          <text systemLanguage="hr">Zemnoalkalijski metal</text>
+          <text systemLanguage="hu">Alkáliföldfém</text>
+          <text systemLanguage="ru">щёлочноземельные металлы</text>
+          <text systemLanguage="sh">Zemnoalkalni metal</text>
+          <text systemLanguage="sr">Земноалкални метал</text>
+          <text systemLanguage="sr-EC">Земноалкални метал</text>
+          <text systemLanguage="sr-EL">Zemnoalkalni metal</text>
+          <text systemLanguage="vi">Kim loại kiềm thổ</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">碱土金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">鹼土金屬</text>
+          <text>Alkaline earth metal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-140)">
+        <use xlink:href="#mark" x="-10" y="-5" class="TM"/>
+        <switch>
+          <text systemLanguage="en">Transition metal</text>
+          <text systemLanguage="id">Logam transisi</text>
+          <text systemLanguage="bs">Prelazni metal</text>
+          <text systemLanguage="ca">Metall de transició</text>
+          <text systemLanguage="cs">Přechodný kov</text>
+          <text systemLanguage="de">Uebergangsmetall</text>
+          <text systemLanguage="es">Metal de transición</text>
+          <text systemLanguage="fi">Siirtymämetalli</text>
+          <text systemLanguage="fr">Métal de transition</text>
+          <text systemLanguage="gl">Metal de transición</text>
+          <text systemLanguage="hr">Prelazni metal</text>
+          <text systemLanguage="hr">Átmenetifém</text>
+          <text systemLanguage="ru">переходные металлы</text>
+          <text systemLanguage="sh">Prelazni metal</text>
+          <text systemLanguage="sr">Прелазни метал</text>
+          <text systemLanguage="sr-EC">Прелазни метал</text>
+          <text systemLanguage="sr-EL">Prelazni metal</text>
+          <text systemLanguage="vi">Kim loại chuyển tiếp</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">过渡金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">過渡金屬</text>
+          <text>Transition metal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-120)">
+        <use xlink:href="#mark" x="-10" y="-5" class="PT"/>
+        <switch>
+          <text systemLanguage="en">Post-transition metal</text>
+          <text systemLanguage="id">Logam pasca transisi</text>
+          <text systemLanguage="bs">Postprelazni metal</text>
+          <text systemLanguage="ca">Metall de posttransició</text>
+          <text systemLanguage="cs">Post-přechodný kov</text>
+          <text systemLanguage="de">Post-Übergangsmetall</text>
+          <text systemLanguage="es">Metal post-transición</text>
+          <text systemLanguage="fi">Post-siirtymämetalli</text>
+          <text systemLanguage="fr">Métal pauvre</text>
+          <text systemLanguage="gl">Metal de postransición</text>
+          <text systemLanguage="hr">Postprelazni metal</text>
+          <text systemLanguage="hu">Másodfajú fém</text>
+          <text systemLanguage="ru">постпереходные металлы</text>
+          <text systemLanguage="sh">Postprelazni metal</text>
+          <text systemLanguage="sr">Постпрелазни метал</text>
+          <text systemLanguage="sr-EC">Постпрелазни метал</text>
+          <text systemLanguage="sr-EL">Postprelazni metal</text>
+          <text systemLanguage="vi">Kim loại sau chuyển tiếp</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">贫金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">貧金屬</text>
+          <text>Post-transition metal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-100)">
+        <use xlink:href="#mark" x="-10" y="-5" class="LA"/>
+        <switch>
+          <text systemLanguage="en">Lanthanide</text>
+          <text systemLanguage="id">Lantanida</text>
+          <text systemLanguage="bs">Lantanid</text>
+          <text systemLanguage="ca">Lantànid</text>
+          <text systemLanguage="cs">Lanthanoid</text>
+          <text systemLanguage="de">Lanthanoid</text>
+          <text systemLanguage="es">Lantánido</text>
+          <text systemLanguage="fi">Lantanoidi</text>
+          <text systemLanguage="fr">Lanthanide</text>
+          <text systemLanguage="gl">Lantánido</text>
+          <text systemLanguage="hr">Lantanid</text>
+          <text systemLanguage="hu">Lantanoida</text>
+          <text systemLanguage="ru">лантаноиды</text>
+          <text systemLanguage="sh">Lantanoid</text>
+          <text systemLanguage="sr">Лантаноид</text>
+          <text systemLanguage="sr-EC">Лантаноид</text>
+          <text systemLanguage="sr-EL">Lantanoid</text>
+          <text systemLanguage="vi">Họ lantan</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">镧系元素</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">鑭系元素</text>
+          <text>Lanthanide</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-80)">
+        <use xlink:href="#mark" x="-10" y="-5" class="AC"/>
+        <switch>
+          <text systemLanguage="en">Actinide</text>
+          <text systemLanguage="id">Aktinida</text>
+          <text systemLanguage="bs">Aktinid</text>
+          <text systemLanguage="ca">Actínid</text>
+          <text systemLanguage="cs">Aktinoid</text>
+          <text systemLanguage="de">Actinoid</text>
+          <text systemLanguage="es">Actínido</text>
+          <text systemLanguage="fi">Aktinoidi</text>
+          <text systemLanguage="fr">Actinide</text>
+          <text systemLanguage="gl">Actínido</text>
+          <text systemLanguage="hr">Aktinid</text>
+          <text systemLanguage="hu">Aktinoida</text>
+          <text systemLanguage="ru">актиноиды</text>
+          <text systemLanguage="sh">Aktinoid</text>
+          <text systemLanguage="sr">Актиноид</text>
+          <text systemLanguage="sr-EC">Актиноид</text>
+          <text systemLanguage="sr-EL">Aktinoid</text>
+          <text systemLanguage="vi">Họ actini</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">锕系元素</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">錒系元素</text>
+          <text>Actinide</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-60)">
+        <use xlink:href="#mark" x="-10" y="-5" class="ME"/>
+        <switch>
+          <text systemLanguage="en">Metalloid</text>
+          <text systemLanguage="id">Metaloid</text>
+          <text systemLanguage="bs">Metaloid</text>
+          <text systemLanguage="ca">Metal·loide</text>
+          <text systemLanguage="cs">Polokov</text>
+          <text systemLanguage="de">Metalloid</text>
+          <text systemLanguage="es">Metaloide</text>
+          <text systemLanguage="fi">Puolimetalli</text>
+          <text systemLanguage="fr">Métalloïde</text>
+          <text systemLanguage="gl">Metaloide</text>
+          <text systemLanguage="hr">Metaloid</text>
+          <text systemLanguage="hu">Félfém</text>
+          <text systemLanguage="ru">полуметаллы</text>
+          <text systemLanguage="sh">Metaloid</text>
+          <text systemLanguage="sr">Металоид</text>
+          <text systemLanguage="sr-EC">Металоид</text>
+          <text systemLanguage="sr-EL">Metaloid</text>
+          <text systemLanguage="vi">Á kim</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">类金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">類金屬</text>
+          <text>Metalloid</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-40)">
+        <use xlink:href="#mark" x="-10" y="-5" class="PA"/>
+        <switch>
+          <text systemLanguage="en">Polyatomic nonmetal</text>
+          <text systemLanguage="id">Nonlogam poliatomik</text>
+          <text systemLanguage="bs">Poliatomski nemetal</text>
+          <text systemLanguage="ca">No-metall poliatòmic</text>
+          <text systemLanguage="cs">Nekov</text>
+          <text systemLanguage="de">Nichtmetall</text>
+          <text systemLanguage="es">No metal poliatómico</text>
+          <text systemLanguage="fi">Epämetalli</text>
+          <text systemLanguage="fr">Non-métal polyatomique</text>
+          <text systemLanguage="gl">Non metal poliatómico</text>
+          <text systemLanguage="hr">Poliatomski nemetal</text>
+          <text systemLanguage="hu">Többatomos nemfém</text>
+          <text systemLanguage="ru">многоатомный неметалл</text>
+          <text systemLanguage="sh">Polyatomic nonetal</text>
+          <text systemLanguage="sr">Полиатомски неметал</text>
+          <text systemLanguage="sr-EC">Полиатомски неметал</text>
+          <text systemLanguage="sr-EL">Poliatomski nemetal</text>
+          <text systemLanguage="vi">Phi kim</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">非金属</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">非金屬</text>
+          <text>Polyatomic nonmetal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-20)">
+        <use xlink:href="#mark" x="-10" y="-5" class="DA"/>
+        <switch>
+          <text systemLanguage="en">Diatomic nonmetal</text>
+          <text systemLanguage="id">Nonlogam diatomik</text>
+          <text systemLanguage="bs">Diatomski nemetal</text>
+          <text systemLanguage="ca">No-metall diatòmic</text>
+          <text systemLanguage="cs">Diatomic nonmetal</text>
+          <text systemLanguage="de">Diatomic nonmetal</text>
+          <text systemLanguage="es">No metal diatómico</text>
+          <text systemLanguage="fi">Halogeeni</text>
+          <text systemLanguage="fr">Non-métal diatomique</text>
+          <text systemLanguage="gl">Non metal diatómico</text>
+          <text systemLanguage="hr">Diatomski nemetal</text>
+          <text systemLanguage="hu">Kétatomos nemfém</text>
+          <text systemLanguage="ru">двухатомный неметалл</text>
+          <text systemLanguage="sh">Diatomski nemetal</text>
+          <text systemLanguage="sr">Диатомски неметал</text>
+          <text systemLanguage="sr-EC">Диатомски неметал</text>
+          <text systemLanguage="sr-EL">Diatomski nemetal</text>
+          <text systemLanguage="vi">Diatomic nonmetal</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">卤素</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">鹵素</text>
+          <text>Diatomic nonmetal</text>
+        </switch>
+      </g>
+
+      <g transform="translate(0,-0)">
+        <use xlink:href="#mark" x="-10" y="-5" class="NG"/>
+        <switch>
+          <text systemLanguage="en">Noble gas</text>
+          <text systemLanguage="id">Gas mulia</text>
+          <text systemLanguage="bs">Plemeniti plin</text>
+          <text systemLanguage="ca">Gas noble</text>
+          <text systemLanguage="cs">Vzácný plyn</text>
+          <text systemLanguage="de">Edelgas</text>
+          <text systemLanguage="es">Gas noble</text>
+          <text systemLanguage="fi">Jalokaasu</text>
+          <text systemLanguage="fr">Gaz noble</text>
+          <text systemLanguage="gl">Gas nobre</text>
+          <text systemLanguage="hr">Plemeniti plin</text>
+          <text systemLanguage="hu">Nemesgáz</text>
+          <text systemLanguage="ru">инертные газы</text>
+          <text systemLanguage="sh">Plemeniti gas</text>
+          <text systemLanguage="sr">Племенити гас</text>
+          <text systemLanguage="sr-EC">Племенити гас</text>
+          <text systemLanguage="sr-EL">Plemeniti gas</text>
+          <text systemLanguage="vi">Khí hiếm</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">稀有气体</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">惰性氣體</text>
+          <text>Noble gas</text>
+        </switch>
+      </g>
+
+    </g>
+
+    <!-- Grid lines -->
+    <g stroke="#8080FF" stroke-width="1">
+      <line x1="-10" y1="-300" x2="50" y2="-300"/>
+      <line x1="-10" y1="-250" x2="150" y2="-250"/>
+      <line x1="-10" y1="-200" x2="250" y2="-200"/>
+      <line x1="-10" y1="-150" x2="600" y2="-150"/>
+      <line x1="-10" y1="-100" x2="900" y2="-100"/>
+      <line x1="-10" y1="-50" x2="1100" y2="-50"/>
+      <line x1="-10" y1="0" x2="1100" y2="0"/>
+
+      <line x1="0" y1="-300" x2="0" y2="10"/>
+
+      <line x1="100" y1="0" x2="100" y2="10"/>
+      <line x1="200" y1="0" x2="200" y2="10"/>
+      <line x1="300" y1="0" x2="300" y2="10"/>
+      <line x1="400" y1="0" x2="400" y2="10"/>
+      <line x1="500" y1="0" x2="500" y2="10"/>
+      <line x1="600" y1="0" x2="600" y2="10"/>
+      <line x1="700" y1="0" x2="700" y2="10"/>
+      <line x1="800" y1="0" x2="800" y2="10"/>
+      <line x1="900" y1="0" x2="900" y2="10"/>
+      <line x1="1000" y1="0" x2="1000" y2="10"/>
+      <line x1="1100" y1="0" x2="1100" y2="10"/>
+
+      <line x1="50" y1="0" x2="50" y2="10"/>
+      <line x1="150" y1="0" x2="150" y2="10"/>
+      <line x1="250" y1="0" x2="250" y2="10"/>
+      <line x1="350" y1="0" x2="350" y2="10"/>
+      <line x1="450" y1="0" x2="450" y2="10"/>
+      <line x1="550" y1="0" x2="550" y2="10"/>
+      <line x1="650" y1="0" x2="650" y2="10"/>
+      <line x1="750" y1="0" x2="750" y2="10"/>
+      <line x1="850" y1="0" x2="850" y2="10"/>
+      <line x1="950" y1="0" x2="950" y2="10"/>
+      <line x1="1050" y1="0" x2="1050" y2="10"/>
+
+      <!-- row separators -->
+      <line x1="20" y1="0" x2="20" y2="-245.8"/>
+      <line x1="100" y1="0" x2="100" y2="-215.6"/>
+      <line x1="180" y1="0" x2="180" y2="-157.6"/>
+      <line x1="360" y1="0" x2="360" y2="-140."/>
+      <line x1="540" y1="0" x2="540" y2="-121.3"/>
+      <line x1="860" y1="0" x2="860" y2="-107.5"/>
+
+    </g>
+
+    <g stroke="none" fill="#808080">
+      <rect class="period" x="10" y="-10" width="10" height="5">
+        <title>Period 1</title>
+      </rect>
+      <rect class="period" x="30" y="-10" width="70" height="5">
+        <title>Period 2</title>
+      </rect>
+      <rect class="period" x="110" y="-10" width="70" height="5">
+        <title>Period 3</title>
+      </rect>
+      <rect class="period" x="190" y="-10" width="170" height="5">
+        <title>Period 4</title>
+      </rect>
+      <rect class="period" x="370" y="-10" width="170" height="5">
+        <title>Period 5</title>
+      </rect>
+      <rect class="period" x="550" y="-10" width="310" height="5">
+        <title>Period 6</title>
+      </rect>
+      <rect class="period" x="870" y="-10" width="210" height="5">
+        <title>Period 7</title>
+      </rect>
+    </g>
+
+    <!-- Grid labels -->
+    <g text-anchor="end" font-size="20" transform="translate(0,7)">
+      <text x="-20" y="-300">30</text>
+      <text x="-20" y="-250">25</text>
+      <text x="-20" y="-200">20</text>
+      <text x="-20" y="-150">15</text>
+      <text x="-20" y="-100">10</text>
+      <text x="-20" y="-50">5</text>
+      <text x="-20" y="0">0</text>
+    </g>
+
+    <g text-anchor="middle" font-size="20">
+      <text x="00" y="30">0</text>
+      <text x="100" y="30">10</text>
+      <text x="200" y="30">20</text>
+      <text x="300" y="30">30</text>
+      <text x="400" y="30">40</text>
+      <text x="500" y="30">50</text>
+      <text x="600" y="30">60</text>
+      <text x="700" y="30">70</text>
+      <text x="800" y="30">80</text>
+      <text x="900" y="30">90</text>
+      <text x="1000" y="30">100</text>
+      <text x="1100" y="30">110</text>
+
+      <g transform="rotate(270) translate(150,-60)">
+        <switch>
+          <text systemLanguage="en">First ionization energy [eV]</text>
+          <text systemLanguage="id">Energi ionisasi pertama [eV]</text>
+          <text systemLanguage="bs">Prva energija ionizacije [eV]</text>
+          <text systemLanguage="ca">Primera energia d'ionització [eV]</text>
+          <text systemLanguage="cs">První ionizační energie [eV]</text>
+          <text systemLanguage="de">Erste Ionisierungsenergie [eV]</text>
+          <text systemLanguage="es">Energía de primera ionización [eV]</text>
+          <text systemLanguage="fi">Ensimmäinen ionisaatioenergia [eV]</text>
+          <text systemLanguage="fr">Énergie de première ionisation [eV]</text>
+          <text systemLanguage="gl">Primeira enerxía de ionización [eV]</text>
+          <text systemLanguage="hr">Prva energija ionizacije [eV]</text>
+          <text systemLanguage="hu">Első ionizációs energia [eV]</text>
+          <text systemLanguage="ru">энергия ионизации [эВ]</text>
+          <text systemLanguage="sh">Prva energija jonizacije [eV]</text>
+          <text systemLanguage="sr">Прва енергија јонизације [eV]</text>
+          <text systemLanguage="sr-EC">Прва енергија јонизације [eV]</text>
+          <text systemLanguage="sr-EL">Prva energija jonizacije [eV]</text>
+          <text systemLanguage="vi">Năng lượng ion hóa (eV)</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">电离能 (eV)</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">電離能 (eV)</text>
+          <text>First ionization energy [eV]</text>
+        </switch>
+      </g>
+
+      <g transform="translate(500,70)">
+        <switch>
+          <text systemLanguage="en">Atomic number (Z)</text>
+          <text systemLanguage="id">Nomor atom (Z)</text>
+          <text systemLanguage="bs">Atomski broj (Z)</text>
+          <text systemLanguage="ca">Nombre atòmic (Z)</text>
+          <text systemLanguage="cs">Atomové číslo (Z)</text>
+          <text systemLanguage="de">Atomnummer (Z)</text>
+          <text systemLanguage="es">Número Atómico (Z)</text>
+          <text systemLanguage="fi">Järjestysluku (Z)</text>
+          <text systemLanguage="fr">Numéro atomique (Z)</text>
+          <text systemLanguage="gl">Número atómico (Z)</text>
+          <text systemLanguage="hr">Atomski broj (Z)</text>
+          <text systemLanguage="hu">Rendszám (Z)</text>
+          <text systemLanguage="ru">Атомный номер</text>
+          <text systemLanguage="sh">Atomski broj (Z)</text>
+          <text systemLanguage="sr">Атомски број (Z)</text>
+          <text systemLanguage="sr-EC">Атомски број (Z)</text>
+          <text systemLanguage="sr-EL">Atomski broj (Z)</text>
+          <text systemLanguage="vi">Số hiệu nguyên tử (Z)</text>
+          <text systemLanguage="zh-cmn-Hans,zh-Hans">原子序数 (Z)</text>
+          <text systemLanguage="zh-cmn-Hant,zh-Hant">原子序數 (Z)</text>
+          <text>Atomic number (Z)</text>
+        </switch>
+      </g>
+
+    </g>
+
+    <!-- significant items -->
+    <g text-anchor="middle" font-size="20">
+      <text x="20" y="-256">He</text>
+      <text x="100" y="-225">Ne</text>
+      <text x="180" y="-167.5">Ar</text>
+      <text x="360" y="-150">Kr</text>
+      <text x="540" y="-131.2">Xe</text>
+      <text x="800" y="-115">Hg</text>
+      <text x="860" y="-117.5">Rn</text>
+
+      <text x="30" y="-34">Li</text>
+      <text x="110" y="-31">Na</text>
+      <text x="190" y="-23">K</text>
+      <text x="370" y="-21">Rb</text>
+      <text x="550" y="-18">Cs</text>
+      <text x="870" y="-20">Fr</text>
+      <text x="1080" y="-54">Hs</text>
+    </g>
+
+    <!-- the elements -->
+    <use xlink:href="#mark" class="DA" x="10" y="-135.984000">
+      <title>H 13.5984 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="20" y="-245.874000">
+      <title>He 24.5874 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="30" y="-53.917000">
+      <title>Li 5.3917 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="40" y="-93.227000">
+      <title>Be 9.3227 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="50" y="-82.980000">
+      <title>B 8.298 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PA" x="60" y="-112.603000">
+      <title>C 11.2603 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="70" y="-145.341000">
+      <title>N 14.5341 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="80" y="-136.181000">
+      <title>O 13.6181 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="90" y="-174.228000">
+      <title>F 17.4228 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="100" y="-215.645000">
+      <title>Ne 21.5645 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="110" y="-51.391000">
+      <title>Na 5.1391 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="120" y="-76.462000">
+      <title>Mg 7.6462 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="130" y="-59.858000">
+      <title>Al 5.9858 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="140" y="-81.517000">
+      <title>Si 8.1517 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PA" x="150" y="-104.867000">
+      <title>P 10.4867 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PA" x="160" y="-103.600000">
+      <title>S 10.36 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="170" y="-129.676000">
+      <title>Cl 12.9676 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="180" y="-157.596000">
+      <title>Ar 15.7596 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="190" y="-43.407000">
+      <title>K 4.3407 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="200" y="-61.132000">
+      <title>Ca 6.1132 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="210" y="-65.615000">
+      <title>Sc 6.5615 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="220" y="-68.281000">
+      <title>Ti 6.8281 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="230" y="-67.462000">
+      <title>V 6.7462 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="240" y="-67.665000">
+      <title>Cr 6.7665 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="250" y="-74.340000">
+      <title>Mn 7.434 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="260" y="-79.025000">
+      <title>Fe 7.9025 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="270" y="-78.810000">
+      <title>Co 7.881 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="280" y="-76.399000">
+      <title>Ni 7.6399 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="290" y="-77.264000">
+      <title>Cu 7.7264 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="300" y="-93.942000">
+      <title>Zn 9.3942 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="310" y="-59.993000">
+      <title>Ga 5.9993 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="320" y="-78.994000">
+      <title>Ge 7.8994 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="330" y="-97.886000">
+      <title>As 9.7886 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PA" x="340" y="-97.524000">
+      <title>Se 9.7524 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="350" y="-118.138000">
+      <title>Br 11.8138 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="360" y="-139.996000">
+      <title>Kr 13.9996 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="370" y="-41.771000">
+      <title>Rb 4.1771 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="380" y="-56.949000">
+      <title>Sr 5.6949 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="390" y="-62.173000">
+      <title>Y 6.2173 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="400" y="-66.339000">
+      <title>Zr 6.6339 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="410" y="-67.589000">
+      <title>Nb 6.7589 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="420" y="-70.924000">
+      <title>Mo 7.0924 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="430" y="-71.194000">
+      <title>Tc 7.1194 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="440" y="-73.605000">
+      <title>Ru 7.3605 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="450" y="-74.589000">
+      <title>Rh 7.4589 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="460" y="-83.369000">
+      <title>Pd 8.3369 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="470" y="-75.762000">
+      <title>Ag 7.5762 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="480" y="-89.938000">
+      <title>Cd 8.9938 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="490" y="-57.864000">
+      <title>In 5.7864 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="500" y="-73.439000">
+      <title>Sn 7.3439 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="510" y="-86.084000">
+      <title>Sb 8.6084 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="520" y="-90.097000">
+      <title>Te 9.0097 eV</title>
+    </use>
+    <use xlink:href="#mark" class="DA" x="530" y="-104.513000">
+      <title>I 10.4513 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="540" y="-121.298000">
+      <title>Xe 12.1298 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="550" y="-38.939000">
+      <title>Cs 3.8939 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="560" y="-52.117000">
+      <title>Ba 5.2117 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="570" y="-55.769000">
+      <title>La 5.5769 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="580" y="-55.386000">
+      <title>Ce 5.5386 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="590" y="-54.730000">
+      <title>Pr 5.473 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="600" y="-55.250000">
+      <title>Nd 5.525 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="610" y="-55.820000">
+      <title>Pm 5.582 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="620" y="-56.437000">
+      <title>Sm 5.6437 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="630" y="-56.704000">
+      <title>Eu 5.6704 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="640" y="-61.498000">
+      <title>Gd 6.1498 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="650" y="-58.638000">
+      <title>Tb 5.8638 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="660" y="-59.391000">
+      <title>Dy 5.9391 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="670" y="-60.215000">
+      <title>Ho 6.0215 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="680" y="-61.077000">
+      <title>Er 6.1077 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="690" y="-61.843000">
+      <title>Tm 6.1843 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="700" y="-62.542000">
+      <title>Yb 6.2542 eV</title>
+    </use>
+    <use xlink:href="#mark" class="LA" x="710" y="-54.259000">
+      <title>Lu 5.4259 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="TM" x="720" y="-68.251000">
+      <title>Hf 6.8251 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="730" y="-75.496000">
+      <title>Ta 7.5496 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="740" y="-78.640000">
+      <title>W 7.8640 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="750" y="-78.335000">
+      <title>Re 7.8335 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="760" y="-84.382000">
+      <title>Os 8.4382 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="770" y="-89.670000">
+      <title>Ir 8.9670 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="780" y="-89.588000">
+      <title>Pt 8.9588 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="790" y="-92.256000">
+      <title>Au 9.2256 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="800" y="-104.375000">
+      <title>Hg 10.4375 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="810" y="-61.083000">
+      <title>Tl 6.1083 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="820" y="-74.167000">
+      <title>Pb 7.4167 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="830" y="-72.855000">
+      <title>Bi 7.2855 eV</title>
+    </use>
+    <use xlink:href="#mark" class="PT" x="840" y="-84.140000">
+      <title>Po 8.414 eV</title>
+    </use>
+    <use xlink:href="#mark" class="ME" x="850" y="-93.3175100">
+      <title>At 9.31751 eV</title>
+    </use>
+    <use xlink:href="#mark" class="NG" x="860" y="-107.485000">
+      <title>Rn 10.7485 eV</title>
+    </use>
+
+    <use xlink:href="#mark" class="AM" x="870" y="-40.727000">
+      <title>Fr 4.0727 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AE" x="880" y="-52.784000">
+      <title>Ra 5.2784 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="890" y="-53.8020000">
+      <title>Ac 5.3802 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="900" y="-63.067000">
+      <title>Th 6.3067 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="910" y="-58.900000">
+      <title>Pa 5.89 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="920" y="-61.941000">
+      <title>U 6.1941 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="930" y="-62.655000">
+      <title>Np 6.2655 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="940" y="-60.258000">
+      <title>Pu 6.0258 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="950" y="-59.738000">
+      <title>Am 5.9738 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="960" y="-59.914000">
+      <title>Cm 5.9914 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="970" y="-61.978000">
+      <title>Bk 6.1978 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="980" y="-62.817000">
+      <title>Cf 6.2817 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="990" y="-63.6760000">
+      <title>Es 6.3676 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="1000" y="-65.000000">
+      <title>Fm 6.50 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="1010" y="-65.800000">
+      <title>Md 6.58 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="1020" y="-66.500000">
+      <title>No 6.65 eV</title>
+    </use>
+    <use xlink:href="#mark" class="AC" x="1030" y="-49.000000">
+      <title>Lr 4.90 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="1040" y="-60.100000">
+      <title>Rf 6.01 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="1050" y="-68.000000">
+      <title>Db 6.8 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="1060" y="-78.000000">
+      <title>Sg 7.8 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="1070" y="-77.000000">
+      <title>Bh 7.7 eV</title>
+    </use>
+    <use xlink:href="#mark" class="TM" x="1080" y="-76.000000">
+      <title>Hs 7.6 eV</title>
+    </use>
+
+  </g>
+
+</svg>
